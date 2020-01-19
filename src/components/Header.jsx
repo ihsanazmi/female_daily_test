@@ -26,14 +26,14 @@ class Header extends Component {
                 <div className="main-header-category">
                     <div className="main-header-dummy"></div>
                     <div className="main-header-center">
-                        <a href="#" className="main-header-item">skincare</a>
-                        <a href="#" className="main-header-item">make up</a>
-                        <a href="#" className="main-header-item">body</a>
-                        <a href="#" className="main-header-item">hair</a>
-                        <a href="#" className="main-header-item">fragrance</a>
-                        <a href="#" className="main-header-item">nails</a>
-                        <a href="#" className="main-header-item">tools</a>
-                        <a href="#" className="main-header-item">brands</a>
+                        <a href="/" className="main-header-item">skincare</a>
+                        <a href="/" className="main-header-item">make up</a>
+                        <a href="/" className="main-header-item">body</a>
+                        <a href="/" className="main-header-item">hair</a>
+                        <a href="/" className="main-header-item">fragrance</a>
+                        <a href="/" className="main-header-item">nails</a>
+                        <a href="/" className="main-header-item">tools</a>
+                        <a href="/" className="main-header-item">brands</a>
                     </div>
                     <div className="main-header-dummy2"></div>
                 </div>
