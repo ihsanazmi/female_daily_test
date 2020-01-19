@@ -152,6 +152,12 @@
   background-color: #d0d0d0;
 }
 
+.bottom-ads{
+  width: 970px;
+  height: 50px;
+  background-color: #d0d0d0;
+}
+
 .billboard{
   
   width: 970px;
@@ -165,6 +171,21 @@
   font-weight: bold;
   font-size: 22px;
   color: #000;
+}
+
+.title-split{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 30px 0;
+}
+
+.title-split a{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: normal;
+  color:#db284e;
+  display: flex;
 }
 
 .sub-title-section{
@@ -185,9 +206,25 @@
   color: #9b9b9b;
 }
 
+.sub-title-section2{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:#9b9b9b;
+}
+
 .home-content-section1{
   width: 1140px;
   margin: 0 auto;
+}
+
+.home-content-section2{
+  width: 1140px;
+  margin: 50px auto 35px auto;
 }
 
 .editor-choice-list{
@@ -400,4 +437,108 @@ overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.article-list{
+  max-width: 1140px;
+  display: flex;
+  flex-flow:  wrap;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+}
+
+.article-list-item{
+  width: 350px;
+  margin: 0 0 30px 0;
+}
+
+.article-card{
+  display: flex;
+  flex-flow: column;
+  border: none;
+  word-break: break-word;
+}
+
+.article-img{
+  width: 350px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.article-title{
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  margin: 20px 0 0 0 ;
+}
+
+.article-author{
+  font-family: 'Roboto';
+  font-size: 16px;
+  color:#9b9b9b;
+  margin: 5px 0 0 0 ;
+}
+
+.article-author a, p{
+  font-family: 'Roboto';
+  font-size: 16px;
+
+}
+.article-author-name{
+  color: #4a4a4a;
+
+}
+
+.group-title{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 700;
+  color:#000;
+  letter-spacing: 1.1px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.group-card-info{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  color:#000;
+  padding: 0;
+  margin: 0 20px 0 10px;
+}
+
+.group-card-desc{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin: 20px;
+
+}
+
+.title-main{
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color:#4a4a4a;
+  margin-top: 50px;
+}
+
+.title-desc{
+  font-family: Roboto;
+  font-size: 14px;
+  color:#4a4a4a;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 import Header from './Header'
+import Footer from './Footer'
 import Home from './Home'
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
                     <Switch>
                         <Route path="/" exact component={Home}/>
                     </Switch>
+                    <Footer/>
                 </BrowserRouter>
             </div>
         )
