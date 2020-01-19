@@ -542,3 +542,46 @@ overflow: hidden;
   font-size: 14px;
   color:#4a4a4a;
 }
+
+.footer{
+  border-top: 1px solid#e0e0e0;
+  width: 100%;
+}
+
+.footer-content{
+  padding: 20px 0;
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-content1 ul li a{
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 2.5;
+  padding: 10px;
+  color:#000;
+  text-decoration: none;
+}
+
+.download-app{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+  color:#db284e;
+  margin: 0 0 15px;
+}
+
+.socmed-list li{
+  margin: 0 20px 0 0;
+}
+
+.copyright{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.5;
+  color:#4a4a4a;
+}
