@@ -166,6 +166,12 @@
   margin-top: 80px;
 }
 
+.mr2{
+  width: 300px;
+  height: 250px;
+  background-color: #d0d0d0
+}
+
 .title-section{
   font-family: 'Roboto';
   font-weight: bold;
@@ -585,3 +591,149 @@ overflow: hidden;
   line-height: 1.5;
   color:#4a4a4a;
 }
+
+.review-card{
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 0 10px;
+}
+
+.review-section{
+  padding: 15px 20px 30px 20px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 1px #e0e0e0;
+  display: flex;
+  flex-flow: column;
+  word-break: break-word;
+}
+
+.review-section a:hover{
+  color: #4a4a4a;
+}
+
+.review-card-user{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+  z-index: 1;
+}
+
+.review-section1{
+  display: flex;
+  flex-flow: row;
+}
+
+.review-card-star{
+  padding: 10px 0;
+  margin: 5px 0 0 0;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  border-top: 0.5px solid
+  #e0e0e0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.review-product-img-container{
+  width: 62px;
+  height: 79px;
+  flex-shrink: 0;
+  background-color:
+  #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  margin: 0 20px 0 0;
+}
+
+.review-product-img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.review-content{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.review-brand-name{
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color:#000;
+  margin: 0;
+}
+
+.review-product-name{
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color:
+  #000;
+  margin: 5px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.review-date{
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color:
+  #c3c3c3;
+  margin: 0 0 0 70px;
+}
+
+.review-text{
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color:#4a4a4a;
+}
+
+.container-user{
+  display: flex;
+  flex-shrink: 0;
+  margin: -22px 0 0 0;
+}
+
+.review-user-img{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin: 0;
+  border: 0.5px solid
+  #e0e0e0;
+  background:
+  #fff;
+}
+
+.review-user-name{
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color:
+  #4a4a4a;
+  margin: 5px 0 0 0;
+}
+
+.review-beauty-profile{
+  font-family: 'Roboto';
+  font-size: 12px;
+  color:
+  #9b9b9b;
+  margin: 5px 0 0 0;
+}
+
