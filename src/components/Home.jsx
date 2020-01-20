@@ -343,7 +343,7 @@ class Home extends Component {
                     </div>
 
                     <div style={{margin:'0 0 90px 0'}}>
-
+                        
                     </div>
                     
                     <h2 className="title-section">Top Brands</h2>
