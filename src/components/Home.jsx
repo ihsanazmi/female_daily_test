@@ -341,6 +341,10 @@ class Home extends Component {
                             <span className="ml-4"><i className="fas fa-chevron-right"></i></span>
                         </a>
                     </div>
+
+                    <div style={{margin:'0 0 90px 0'}}>
+
+                    </div>
                     
                     <h2 className="title-section">Top Brands</h2>
                     <div className="title-split">
